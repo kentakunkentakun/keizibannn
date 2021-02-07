@@ -1,9 +1,9 @@
 <?php
 
-$db_host = 'localhost';
-$db_name = 'board_db';
-$db_user = 'board_user';
-$db_pass = 'Kenta@2079';
+$db_host = 'host名';
+$db_name = 'db名';
+$db_user = 'user名';
+$db_pass = 'パスワード';
 
 // データベースへ接続する
 $link = mysqli_connect( $db_host, $db_user, $db_pass, $db_name );
